@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cafe Việt - Cà phê mỗi ngày</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fffaf2;
+  color: #382719;
+}
+header {
+  background: #402719;
+  color: white;
+  padding: 22px;
+  text-align: center;
+}
+.hero {
+  padding: 55px 20px;
+  text-align: center;
+  background: #ead8bd;
+}
+.hero h1 { font-size: 34px; }
+.hero p { line-height: 1.7; }
+.menu {
+  padding: 25px 20px;
+  text-align: center;
+}
+.item {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 14px;
+  max-width: 360px;
+  box-shadow: 0 3px 12px #00000012;
+}
+.price {
+  color: #a45b24;
+  font-weight: bold;
+}
+.contact {
+  background: #402719;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+button {
+  background: #a45b24;
+  color: white;
+  border: 0;
+  padding: 13px 22px;
+  border-radius: 8px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>☕ CAFE VIỆT</h2>
+  <p>Cà phê ngon - Khởi đầu ngày mới</p>
+</header>
+
+<section class="hero">
+  <h1>Chào mừng đến Cafe Việt</h1>
+  <p>Thưởng thức hương vị cà phê đậm đà
+  trong không gian ấm cúng.</p>
+  <button onclick="document.getElementById('menu').scrollIntoView()">
+    Xem thực đơn
+  </button>
+</section>
+
+<section class="menu" id="menu">
+  <h2>☕ Thực đơn của chúng tôi</h2>
+
+  <div class="item">
+    <h3>Cà phê đen</h3>
+    <p>Hương vị truyền thống</p>
+    <p class="price">20.000 VNĐ</p>
+  </div>
+
+  <div class="item">
+    <h3>Cà phê sữa</h3>
+    <p>Thơm ngon, đậm đà</p>
+    <p class="price">25.000 VNĐ</p>
+  </div>
+
+  <div class="item">
+    <h3>Bạc xỉu</h3>
+    <p>Ngọt dịu và béo thơm</p>
+    <p class="price">28.000 VNĐ</p>
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Liên hệ với chúng tôi</h2>
+  <p>Địa chỉ: Việt Nam</p>
+  <p>Hotline: 0900 000 000</p>
+  <p>© 2026 Cafe Việt</p>
+</section>
+
+</body>
+</html>
